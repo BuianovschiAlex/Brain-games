@@ -3,4 +3,6 @@
 
 <a href="https://codeclimate.com/github/BuianovschiAlex/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/046bb20fcc79b5d8c943/maintainability" /></a>
 
-<a href="https://asciinema.org/a/527263" target="_blank"><img src="https://asciinema.org/a/527263.svg" /></a>
+<a href="https://asciinema.org/a/527269" target="_blank"><img src="https://asciinema.org/a/527269.svg" /></a>
+
+<a href="https://asciinema.org/a/529322" target="_blank"><img src="https://asciinema.org/a/529322.svg" /></a>
