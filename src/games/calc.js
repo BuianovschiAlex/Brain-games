@@ -18,9 +18,9 @@ const getCorrectAnswer = (randomNum1, operator, randomNum2) => {
 };
 
 const task = () => {
-  const randomOperator = operators[getRandomNum(0, operators.length)];
   const randomNum1 = getRandomNum(0, 100);
   const randomNum2 = getRandomNum(0, 100);
+  const randomOperator = operators[getRandomNum(0, operators.length)];
 
   const question = `${randomNum1} ${randomOperator} ${randomNum2}`;
   const answer = String(getCorrectAnswer(randomNum1, randomOperator, randomNum2));

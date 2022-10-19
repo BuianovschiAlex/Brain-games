@@ -7,7 +7,7 @@ const mainGame = (rule, task) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}!`);
   console.log(rule);
-  for (let questionsAsked = 0; questionsAsked < round; questionsAsked += 1) {
+  for (let question = 0; question < round; question += 1) {
     const questionAndAnswer = task();
     const [askedQuestion, correctAnswer] = questionAndAnswer;
     console.log(`Question: ${askedQuestion}`);
