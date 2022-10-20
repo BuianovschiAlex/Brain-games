@@ -9,7 +9,7 @@
 <h2><b>Setup</b></h2>
 
 ```bash
-make install
+$ make install
 ```
 
 <h2><b>Overviews</b></h2>
