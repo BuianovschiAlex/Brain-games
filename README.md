@@ -14,63 +14,63 @@ make install
 
 <h2><b>Overviews</b></h2>
 
-<h3><b>Brain even</b></h3>
+<h2><b>Brain even</b></h2>
 
-<h4><b>Run</b></h4>
+<h3><b>Run</b></h3>
 
 ```bash
 $ make brain-even
 ```
 
-<h4><b>Example</b></h4>
+<h3><b>Example</b></h3>
 
 <a href="https://asciinema.org/a/527269" target="_blank"><img src="https://asciinema.org/a/527269.svg" /></a>
 
-<h3><b>Brain calc</b></h3>
+<h2><b>Brain calc</b></h2>
 
-<h4><b>Run</b></h4>
+<h3><b>Run</b></h3>
 
 ```bash
 $ make brain-calc
 ```
 
-<h4><b>Example</b></h4>
+<h3><b>Example</b></h3>
 
 <a href="https://asciinema.org/a/529322" target="_blank"><img src="https://asciinema.org/a/529322.svg" /></a>
 
-<h3><b>Brain gcd</b></h3>
+<h2><b>Brain gcd</b></h2>
 
-<h4><b>Run</b></h4>
+<h3><b>Run</b></h3>
 
 ```bash
 $ make brain-gcd
 ```
 
-<h4><b>Example</b></h4>
+<h3><b>Example</b></h3>
 
 <a href="https://asciinema.org/a/529702" target="_blank"><img src="https://asciinema.org/a/529702.svg" /></a>
 
-<h3><b>Brain progression</b></h3>
+<h2><b>Brain progression</b></h2>
 
-<h4><b>Run</b></h4>
+<h3><b>Run</b></h3>
 
 ```bash
 $ make brain-progression
 ```
 
-<h4><b>Example</b></h4>
+<h3><b>Example</b></h3>
 
 <a href="https://asciinema.org/a/530018" target="_blank"><img src="https://asciinema.org/a/530018.svg" /></a>
 
-<h3><b>Brain prime</b></h3>
+<h2><b>Brain prime</b></h2>
 
-<h4><b>Run</b></h4>
+<h3><b>Run</b></h3>
 
 ```bash
 $ make brain-prime
 ```
 
-<h4><b>Example</b></h4>
+<h3><b>Example</b></h3>
 
 <a href="https://asciinema.org/a/530428" target="_blank"><img src="https://asciinema.org/a/530428.svg" /></a>
 
