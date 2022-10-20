@@ -1,4 +1,4 @@
-import mainGame from '../index.js';
+import runMainGame from '../index.js';
 import getRandomNum from '../utilities.js';
 
 const gameRule = 'What is the result of the expression?';
@@ -13,22 +13,24 @@ const getCorrectAnswer = (randomNum1, operator, randomNum2) => {
     case '*':
       return randomNum1 * randomNum2;
     default:
-      return `Not found this ${operator}`;
+      throw new Error(`Not found this ${operator}`);
   }
 };
 
 const task = () => {
-  const randomNum1 = getRandomNum(0, 100);
-  const randomNum2 = getRandomNum(0, 100);
-  const randomOperator = operators[getRandomNum(0, operators.length)];
+  const startingNumber = 0;
+  const lastNumber = 100;
+  const randomNum1 = getRandomNum(startingNumber, lastNumber);
+  const randomNum2 = getRandomNum(startingNumber, lastNumber);
+  const randomOperator = operators[getRandomNum(startingNumber, operators.length)];
 
   const question = `${randomNum1} ${randomOperator} ${randomNum2}`;
   const answer = String(getCorrectAnswer(randomNum1, randomOperator, randomNum2));
   return [question, answer];
 };
 
-const gameCalc = () => {
-  mainGame(gameRule, task);
+const runCalc = () => {
+  runMainGame(gameRule, task);
 };
 
-export default gameCalc;
+export default runCalc;
