@@ -17,6 +17,7 @@ make install
 <h3><b>Brain even</b></h3>
 
 <h4><b>Run</b></h4>
+
 ```bash
 $ make brain-even
 ```
@@ -28,6 +29,7 @@ $ make brain-even
 <h3><b>Brain calc</b></h3>
 
 <h4><b>Run</b></h4>
+
 ```bash
 $ make brain-calc
 ```
@@ -39,6 +41,7 @@ $ make brain-calc
 <h3><b>Brain gcd</b></h3>
 
 <h4><b>Run</b></h4>
+
 ```bash
 $ make brain-gcd
 ```
@@ -50,6 +53,7 @@ $ make brain-gcd
 <h3><b>Brain progression</b></h3>
 
 <h4><b>Run</b></h4>
+
 ```bash
 $ make brain-progression
 ```
@@ -61,6 +65,7 @@ $ make brain-progression
 <h3><b>Brain prime</b></h3>
 
 <h4><b>Run</b></h4>
+
 ```bash
 $ make brain-prime
 ```
