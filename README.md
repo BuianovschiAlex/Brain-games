@@ -6,11 +6,23 @@
 <h2><b>Description</b></h2>
 <p><i>Brain Games</i> is a set of five console mini-games based on the popular mobile brain-pumping apps.Each game asks questions that need to be answered correctly. After three correct answers the game is considered completed. Wrong answers end the game and prompt you to play again.</p>
 
+
+<h2><b>Minimum system requirements</b></h2>
+
+<ul>
+<li>You use a development-friendly operating system (such as Ubuntu, macOS) or have configured Windows (WSL)</li>
+<li>Node.js version 13 and above.</li>
+</ul>
+
+
 <h2><b>Setup</b></h2>
 
 ```bash
 $ make install
 ```
+
+<p>To start the game must be in the project root folder, type the <b>$ make brain-(game name)</b> (Example: <i>$make brain-even</i>) Below are examples and demos for each game.</p>
+
 
 <h2><b>Overviews</b></h2>
 

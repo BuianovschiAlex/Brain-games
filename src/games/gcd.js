@@ -3,14 +3,15 @@ import getRandomNum from '../utilities.js';
 
 const gameRule = 'Find the greatest common divisor of given numbers.';
 
+const startingNumber = 0;
+const lastNumber = 100;
+
 const getDivisor = (randomNum1, randomNum2) => {
   if (randomNum2 === 0) return randomNum1;
   return getDivisor(randomNum2, randomNum1 % randomNum2);
 };
 
-const task = () => {
-  const startingNumber = 0;
-  const lastNumber = 100;
+const getTask = () => {
   const randomNum1 = getRandomNum(startingNumber, lastNumber);
   const randomNum2 = getRandomNum(startingNumber, lastNumber);
 
@@ -20,7 +21,7 @@ const task = () => {
 };
 
 const runGcd = () => {
-  runMainGame(gameRule, task);
+  runMainGame(gameRule, getTask);
 };
 
 export default runGcd;
