@@ -11,7 +11,7 @@
 
 <ul>
 <li>You use a development-friendly operating system (such as Ubuntu, macOS) or have configured Windows (WSL)</li>
-<li>Node.js version 13 and above.</li>
+<li>Node.js version 13.0.0 or higher.</li>
 </ul>
 
 
@@ -21,7 +21,11 @@
 $ make install
 ```
 
-<p>To start the game must be in the project root folder, type the <b>$ make brain-(game name)</b> (Example: <i>$make brain-even</i>) Below are examples and demos for each game.</p>
+```bash
+$ npm link
+```
+
+<p>To start the game must be in the project root folder, type the <b>$ make brain-(game name)</b> (Example: <i>$make brain-even</i>). Below are examples and demos for each game.</p>
 
 
 <h2><b>Overviews</b></h2>
