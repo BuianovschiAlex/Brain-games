@@ -35,7 +35,7 @@ $ npm link
 <h4><b>Run</b></h4>
 
 ```bash
-$ make brain-even
+$ brain-even
 ```
 
 <h4><b>Example</b></h4>
@@ -47,7 +47,7 @@ $ make brain-even
 <h4><b>Run</b></h4>
 
 ```bash
-$ make brain-calc
+$ brain-calc
 ```
 
 <h4><b>Example</b></h4>
@@ -59,7 +59,7 @@ $ make brain-calc
 <h4><b>Run</b></h4>
 
 ```bash
-$ make brain-gcd
+$ brain-gcd
 ```
 
 <h4><b>Example</b></h4>
@@ -71,7 +71,7 @@ $ make brain-gcd
 <h4><b>Run</b></h4>
 
 ```bash
-$ make brain-progression
+$ brain-progression
 ```
 
 <h4><b>Example</b></h4>
@@ -83,7 +83,7 @@ $ make brain-progression
 <h4><b>Run</b></h4>
 
 ```bash
-$ make brain-prime
+$ brain-prime
 ```
 
 <h4><b>Example</b></h4>
